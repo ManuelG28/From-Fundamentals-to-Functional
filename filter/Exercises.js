@@ -72,5 +72,6 @@ const data = [
 ];
 
 const suspects = filter(data, item => item.present );
-
+const suspectsName = suspects.map(suspect => suspect.name);
 console.log(suspects)
+console.log(suspectsName)
